@@ -1,25 +1,15 @@
 # Books Scrapper
 
+## Description
+
+A simple web scrapper that scrapes book data from the [books to scrape](https://books.toscrape.com/index.html), and allows users to make queries based on that data.
+
 ## Features
 
-- Grabs book data from website.
-- Allows users to query the script for books in a particular genre with an optional rating e.g. "Romance 5".
-- Returns max of 10 books that meet that criteria, sorted by price in descending order.
-- Each item in the returned list of books must have a title property, description, price and rating.
+- Users can filter books by genre.
+- Users can filter books by rating (optional).
+- Automatically sorts books by price (descending).
 
+### Technologies used
 
-### Implementation
-
-I have to create a dictionary that matches a user's query to the correct URL. A sample of the dictionary would be
-
-Python
-```
-{
-    travel: "...url",
-    romance: "...url".
-    etc: "..."
-}
-
-
-
-```
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)

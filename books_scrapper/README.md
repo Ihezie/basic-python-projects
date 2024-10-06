@@ -1,8 +1,8 @@
-# Books Scrapper
+# Book Scrapper
 
 ## Description
 
-A simple web scrapper that scrapes book data from the [books to scrape](https://books.toscrape.com/index.html), and allows users to make queries based on that data.
+A simple web scrapper that scrapes book data from the [books to scrape](https://books.toscrape.com/index.html) website, and allows users to make queries based on that data.
 
 ## Features
 
